@@ -17,6 +17,21 @@ TextureImporter:
   - first:
       213: 21300008
     second: snail_4
+  - first:
+      213: -6207193392188836992
+    second: snail_0
+  - first:
+      213: -2892910820977171364
+    second: snail_1
+  - first:
+      213: -3278524096712110203
+    second: snail_2
+  - first:
+      213: 8991455535210373810
+    second: snail_3
+  - first:
+      213: -214144466214940509
+    second: snail_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -98,18 +113,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 90.6
-        height: 68
+        y: 3
+        width: 88
+        height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02305410000000000800000000000000
-      internalID: 21300000
+      spriteID: 083be663f7e9bd9a0800000000000000
+      internalID: -6207193392188836992
       vertices: []
       indices: 
       edges: []
@@ -118,19 +133,19 @@ TextureImporter:
       name: snail_1
       rect:
         serializedVersion: 2
-        x: 90
-        y: 0
-        width: 90.6
-        height: 68
+        x: 91
+        y: 2
+        width: 88
+        height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22305410000000000800000000000000
-      internalID: 21300002
+      spriteID: c54a5c48fe05ad7d0800000000000000
+      internalID: -2892910820977171364
       vertices: []
       indices: 
       edges: []
@@ -139,19 +154,19 @@ TextureImporter:
       name: snail_2
       rect:
         serializedVersion: 2
-        x: 180
-        y: 0
-        width: 90.6
-        height: 68
+        x: 182
+        y: 3
+        width: 88
+        height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42305410000000000800000000000000
-      internalID: 21300004
+      spriteID: 58f8ae354b75082d0800000000000000
+      internalID: -3278524096712110203
       vertices: []
       indices: 
       edges: []
@@ -160,19 +175,19 @@ TextureImporter:
       name: snail_3
       rect:
         serializedVersion: 2
-        x: 270
-        y: 0
-        width: 90.6
-        height: 68
+        x: 280
+        y: 2
+        width: 81
+        height: 63
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62305410000000000800000000000000
-      internalID: 21300006
+      spriteID: 2b22fe5ab2118cc70800000000000000
+      internalID: 8991455535210373810
       vertices: []
       indices: 
       edges: []
@@ -181,19 +196,19 @@ TextureImporter:
       name: snail_4
       rect:
         serializedVersion: 2
-        x: 362
-        y: 0
-        width: 91
-        height: 68
+        x: 392
+        y: 3
+        width: 56
+        height: 55
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82305410000000000800000000000000
-      internalID: 21300008
+      spriteID: 3a094a81eb4370df0800000000000000
+      internalID: -214144466214940509
       vertices: []
       indices: 
       edges: []
@@ -201,7 +216,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 033b4de15008568488f0db32b894cd58
     internalID: 0
     vertices: []
     indices: 
