@@ -10,6 +10,7 @@ TagManager:
   - Snail
   - Spider
   - Bird
+  - Coin
   layers:
   - Default
   - TransparentFX

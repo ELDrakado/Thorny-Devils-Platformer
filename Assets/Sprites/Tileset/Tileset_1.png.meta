@@ -5,6 +5,24 @@ TextureImporter:
   - first:
       213: 21300000
     second: Tileset_1_0
+  - first:
+      213: 1762388525989174176
+    second: Tree_1
+  - first:
+      213: -7250892644101224563
+    second: Water
+  - first:
+      213: -4057701517488125426
+    second: Shrooms
+  - first:
+      213: -5037254422314394300
+    second: Stump
+  - first:
+      213: -6197977681688522436
+    second: Bridge
+  - first:
+      213: 690925437217177120
+    second: Bush_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -102,10 +120,136 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Tree_1
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 202
+        width: 194
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 21}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab1fcfd603457810800000000000000
+      internalID: 1762388525989174176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 340
+        width: 68
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 2}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d878adb9e87af5b90800000000000000
+      internalID: -7250892644101224563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shrooms
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 0, z: 0, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a8e8de7f520b7c0800000000000000
+      internalID: -4057701517488125426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stump
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0
+        width: 136
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 3, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d5faa9ac3181ab0800000000000000
+      internalID: -5037254422314394300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bridge
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 39
+        width: 166
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 1, z: 0, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c311825032c5cf9a0800000000000000
+      internalID: -6197977681688522436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush_1
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 134
+        width: 139
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 4, y: 2, z: 5, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e7c934609a69900800000000000000
+      internalID: 690925437217177120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 10609b4595c20484b934728ea3ab4a15
     internalID: 0
     vertices: []
     indices: 
