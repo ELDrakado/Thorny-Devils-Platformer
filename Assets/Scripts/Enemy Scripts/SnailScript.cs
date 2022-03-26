@@ -75,7 +75,7 @@ public class SnailScript : MonoBehaviour
             if (leftHit.collider.gameObject.tag == MyTags.PLAYER_TAG) {
                 if (!stunned) {
                     // apply damage to player
-                    print("DAMAGE LEFT!");
+                    leftHit.collider.gameObject.GetComponent<PlayerDamage>().DealDamage();
                 } else {
                     if (tag != MyTags.BEETLE_TAG) {
                         myBody.velocity = new Vector2(15f, myBody.velocity.y);
@@ -89,7 +89,7 @@ public class SnailScript : MonoBehaviour
             if (rightHit.collider.gameObject.tag == MyTags.PLAYER_TAG) {
                 if (!stunned) {
                     // apply damage to player
-                    print("DAMAGE RIGHT!");
+                    rightHit.collider.gameObject.GetComponent<PlayerDamage>().DealDamage();
                 } else {
                     if (tag != MyTags.BEETLE_TAG) {
                         myBody.velocity = new Vector2(-15f, myBody.velocity.y);

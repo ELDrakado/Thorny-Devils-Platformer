@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class FrogScript : MonoBehaviour
 {
+    public LayerMask playerLayer;
+
     private Animator anim;
+    private GameObject player;
     private bool animationStarted;
     private bool animationFinished;
     private int jumpedTimes;
@@ -19,6 +22,14 @@ public class FrogScript : MonoBehaviour
     void Start()
     {
         StartCoroutine("FrogJump");
+        player = GameObject.FindGameObjectWithTag(MyTags.PLAYER_TAG);
+    }
+
+    void Update()
+    {
+        if (Physics2D.OverlapCircle(transform.position, 0.5f, playerLayer)) {
+            player.GetComponent<PlayerDamage>().DealDamage();
+        }
     }
 
     // Update is called once per frame
